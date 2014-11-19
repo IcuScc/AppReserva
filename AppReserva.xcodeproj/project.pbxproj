@@ -14,6 +14,7 @@
 		182A707A1A1D30320011A393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182A70791A1D30320011A393 /* Images.xcassets */; };
 		182A707D1A1D30320011A393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182A707B1A1D30320011A393 /* LaunchScreen.xib */; };
 		182A70891A1D30320011A393 /* AppReservaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A70881A1D30320011A393 /* AppReservaTests.swift */; };
+		182A70FD1A1D32940011A393 /* appreserva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182A70FB1A1D32940011A393 /* appreserva.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		182A70821A1D30320011A393 /* AppReservaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppReservaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182A70871A1D30320011A393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182A70881A1D30320011A393 /* AppReservaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReservaTests.swift; sourceTree = "<group>"; };
+		182A70FC1A1D32940011A393 /* appreserva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appreserva.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		182A706D1A1D30310011A393 /* AppReserva */ = {
 			isa = PBXGroup;
 			children = (
+				182A70FE1A1D32990011A393 /* Modelo */,
 				182A70701A1D30320011A393 /* AppDelegate.swift */,
 				182A70721A1D30320011A393 /* FirstViewController.swift */,
 				182A70741A1D30320011A393 /* SecondViewController.swift */,
@@ -113,6 +116,14 @@
 				182A70871A1D30320011A393 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182A70FE1A1D32990011A393 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				182A70FB1A1D32940011A393 /* appreserva.xcdatamodeld */,
+			);
+			name = Modelo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				182A70FD1A1D32940011A393 /* appreserva.xcdatamodeld in Sources */,
 				182A70751A1D30320011A393 /* SecondViewController.swift in Sources */,
 				182A70711A1D30320011A393 /* AppDelegate.swift in Sources */,
 				182A70731A1D30320011A393 /* FirstViewController.swift in Sources */,
@@ -411,6 +423,7 @@
 				182A708E1A1D30320011A393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		182A708F1A1D30320011A393 /* Build configuration list for PBXNativeTarget "AppReservaTests" */ = {
 			isa = XCConfigurationList;
@@ -419,8 +432,23 @@
 				182A70911A1D30320011A393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182A70FB1A1D32940011A393 /* appreserva.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182A70FC1A1D32940011A393 /* appreserva.xcdatamodel */,
+			);
+			currentVersion = 182A70FC1A1D32940011A393 /* appreserva.xcdatamodel */;
+			name = appreserva.xcdatamodeld;
+			path = ../appreserva.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 182A70631A1D30310011A393 /* Project object */;
 }

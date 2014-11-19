@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>16DBA09A-2E64-4D9A-966C-0C186A9EC09E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AppReserva</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D598C3D9F9C6FC1EF3F3363276BC7D61691D8E20</key>
+		<string>https://github.com/IcuScc/AppReserva.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AppReserva.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D598C3D9F9C6FC1EF3F3363276BC7D61691D8E20</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/IcuScc/AppReserva.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D598C3D9F9C6FC1EF3F3363276BC7D61691D8E20</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D598C3D9F9C6FC1EF3F3363276BC7D61691D8E20</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppReserva</string>
+		</dict>
+	</array>
+</dict>
+</plist>
