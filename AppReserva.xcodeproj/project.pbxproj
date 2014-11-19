@@ -15,6 +15,8 @@
 		182A707D1A1D30320011A393 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182A707B1A1D30320011A393 /* LaunchScreen.xib */; };
 		182A70891A1D30320011A393 /* AppReservaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182A70881A1D30320011A393 /* AppReservaTests.swift */; };
 		182A70FD1A1D32940011A393 /* appreserva.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182A70FB1A1D32940011A393 /* appreserva.xcdatamodeld */; };
+		18B5807E1A1D3B470066A2FA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18B5807D1A1D3B470066A2FA /* Main_iPad.storyboard */; };
+		18B580821A1D3CF00066A2FA /* PrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B580811A1D3CF00066A2FA /* PrincipalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		182A70871A1D30320011A393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		182A70881A1D30320011A393 /* AppReservaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReservaTests.swift; sourceTree = "<group>"; };
 		182A70FC1A1D32940011A393 /* appreserva.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = appreserva.xcdatamodel; sourceTree = "<group>"; };
+		18B5807D1A1D3B470066A2FA /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		18B580811A1D3CF00066A2FA /* PrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrincipalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,12 @@
 		182A706D1A1D30310011A393 /* AppReserva */ = {
 			isa = PBXGroup;
 			children = (
+				18B580801A1D3CBA0066A2FA /* iPad */,
+				18B5807F1A1D3CB10066A2FA /* iPhone */,
 				182A70FE1A1D32990011A393 /* Modelo */,
 				182A70701A1D30320011A393 /* AppDelegate.swift */,
-				182A70721A1D30320011A393 /* FirstViewController.swift */,
-				182A70741A1D30320011A393 /* SecondViewController.swift */,
 				182A70761A1D30320011A393 /* Main.storyboard */,
+				18B5807D1A1D3B470066A2FA /* Main_iPad.storyboard */,
 				182A70791A1D30320011A393 /* Images.xcassets */,
 				182A707B1A1D30320011A393 /* LaunchScreen.xib */,
 				182A706E1A1D30320011A393 /* Supporting Files */,
@@ -124,6 +129,23 @@
 				182A70FB1A1D32940011A393 /* appreserva.xcdatamodeld */,
 			);
 			name = Modelo;
+			sourceTree = "<group>";
+		};
+		18B5807F1A1D3CB10066A2FA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				182A70721A1D30320011A393 /* FirstViewController.swift */,
+				182A70741A1D30320011A393 /* SecondViewController.swift */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		18B580801A1D3CBA0066A2FA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				18B580811A1D3CF00066A2FA /* PrincipalViewController.swift */,
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				182A70781A1D30320011A393 /* Main.storyboard in Resources */,
+				18B5807E1A1D3B470066A2FA /* Main_iPad.storyboard in Resources */,
 				182A707D1A1D30320011A393 /* LaunchScreen.xib in Resources */,
 				182A707A1A1D30320011A393 /* Images.xcassets in Resources */,
 			);
@@ -228,6 +251,7 @@
 			files = (
 				182A70FD1A1D32940011A393 /* appreserva.xcdatamodeld in Sources */,
 				182A70751A1D30320011A393 /* SecondViewController.swift in Sources */,
+				18B580821A1D3CF00066A2FA /* PrincipalViewController.swift in Sources */,
 				182A70711A1D30320011A393 /* AppDelegate.swift in Sources */,
 				182A70731A1D30320011A393 /* FirstViewController.swift in Sources */,
 			);
@@ -357,6 +381,7 @@
 				INFOPLIST_FILE = AppReserva/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -367,6 +392,7 @@
 				INFOPLIST_FILE = AppReserva/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
